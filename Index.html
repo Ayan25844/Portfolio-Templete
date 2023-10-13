@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/subscribe-bg.png">
+    <title>Portfolio Website</title>
+
+    <!-- Css Link -->
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- FONT AWSOME -->
+
+    <script src="https://kit.fontawesome.com/d848b5927d.js" crossorigin="anonymous"></script>
+
+    <!-- Bootstrap CDN Link -->
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+</head>
+<body class="body">
+
+    <!-- Internal CSS -->
+
+    <style>
+
+        /* Navigation Bar */
+
+        .navbar-nav .nav-link.active{
+            color: #854fee;
+        }
+
+        .nav-link{
+            color: #000000;
+            font-size:14.91px;
+            margin-right: 2.44rem;
+        }
+
+        .nav-link:hover{
+            color: #854fee;
+        }
+
+        /* Title Section */
+
+        .title{
+            min-height: 55.40rem;
+            background: url(img/banner/home-banner.png)no-repeat 0% 50%;
+        }
+
+        hr{
+            opacity: 1;
+            width: 17.3rem;
+            height: 0.15rem;
+            margin-left: 17.5px;
+            margin-bottom: 10px;
+            display: inline-block;
+            background-color: #000000;
+        }
+
+        .btn{
+            height: 3.1rem;
+            border-width: 2px;
+            border-radius: 4px;
+            border-color: #854fee;
+            border-bottom-width: 3px;
+        }
+
+        .btn-primary{
+            background-color:#854fee;
+        }
+
+        .btn-primary:hover{
+            color: #000000;
+            background-color: #ffffff;
+            transition: .6s ease;
+        }
+
+        .btn-outline-primary{
+            color: #000000;
+        }
+
+        .btn-outline-primary:hover{
+            color: #ffffff;
+            background-color: #854fee;
+        }
+
+        /* brand Section */
+
+        .single_brand{
+            width: 180px;
+            height: 100px;
+            cursor: pointer;
+            margin: 0.9rem 0;
+            text-align: center;
+            padding: 1.8rem 0rem;
+            border: 1px solid #201f1f17;
+            transition: transform .4s ease;
+        }
+
+        .single_brand:hover{
+            transform: scale(1.1);
+            box-shadow:0px 10px 30px rgba(57, 56, 61, 0.205);
+        }
+
+        .single_brand:hover > img{
+            filter: brightness(0.15);
+        }
+
+        /* Service Section */
+
+        .services{
+            padding-left: 9%;
+            padding-right: 9%;
+        }
+
+        h1{
+            font-weight: bold;
+        }
+
+        .card-area{
+            width: 18rem;
+            border-style: none;
+            background-color: rgba(248, 252, 253, 0.973);
+        }
+
+        .card-img-top{
+            width: min-content;
+        }
+
+        /* Project Section */
+
+        .project{
+            padding-left: 9%;
+        }
+
+    </style>
+
+    <!-- Navigation Bar -->
+
+    <section id="navbar">
+        <div class="container-fluid bar">
+            <nav class="navbar navbar-expand-lg">
+                <a class="navbar-brand" href="index.html">
+                    <img src="img/logo.png" alt="brand logo" width="139" height="35">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#title">HOME</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#intro">ABOUT</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#brand">BRANDS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#services">SERVICES</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#project">PROJECTS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#feedback">FEEDBACK</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">CONTACT</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div> 
+    </section>
+
+    <!-- Title Section -->
+
+    <section id="title">
+        <div class=" container-fluid title">
+            <div class="row">
+                <div class="col-lg-6 heading" style="padding-left: 91px;">
+                    <h3 style="font-size: 50px;">Hey <hr></h3>
+                    <h1 style="font-size: 5rem; font-weight: bold; margin-bottom: 18px;">I AM AYAN</h1>
+                    <h4 style="font-weight: bold; margin-bottom: 30px;">FULL STACK DEVELOPER</h4>
+                    <button type="button" class="btn btn-primary">HIRE ME</button>
+                    <button type="button" class="btn btn-outline-primary">GET CV</button>
+                </div>
+                <div class="col-lg-6 banner">
+                    <img src="img/banner/banner-image.png" style="padding:8rem 0 7rem 0; width: 41rem;">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Introduction Section -->
+
+    <section id="intro">
+        <div class="container-fluid intro">
+            <div class="row">
+                <div class="col-lg-6" style="padding-left: 91px;">
+                    <img src="img/about-us.png" style="width: 41rem;">
+                </div>
+                <div class="col-lg-6">
+                    <h2 style="font-weight: 900; font-size: 50px; letter-spacing: 20px; padding-top: 30px;">LET ME</h2>
+                    <h2 style="font-weight: 900; font-size: 50px; letter-spacing: 20px;">INTRODUCE</h2>
+                    <h2 style="font-weight: 900; font-size: 50px; letter-spacing: 20px;">MYSELF</h2>
+                    <p style="padding-top: 30px; padding-bottom: 30px; padding-right: 245px;" class="project-para">
+                        I am a machine learning enthusiast and practitioner. Being in my 2nd year, I am currently pursuing a B. Tech in Computer Science Engineering from
+                        UEM, Kolkata. I live in Kolkata.<br><br>
+
+                        Apart from academics, I also have an interest in the fields of ML and full stack web development and have
+                        worked on various projects, most of which are uploaded to LinkedIn. On the contrary, I have expertise in event coordination and management. I had
+                        also anchored an event during the pujas on behalf of Telegraph. I am a responsible and positive person. I have good leadership and communication
+                        skills. My hobbies are singing and travelling.
+                    </p>
+                    <button type="button" class="btn btn-primary" style="width: 21%;">DOWNLOAD CV</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Brand Section -->
+
+    <section id="brand">
+        <div class="container-fluid brand" style="padding-top: 8%;">
+            <div class="row">
+                <div class="col-lg-6" style="padding-left: 91px;">
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <div class="single_brand">
+                                <img src="img/brands/logo1.png">
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="single_brand">
+                                <img src="img/brands/logo2.png">
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="single_brand">
+                                <img src="img/brands/logo3.png">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <div class="single_brand">
+                                <img src="img/brands/logo4.png">
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="single_brand">
+                                <img src="img/brands/logo5.png">
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="single_brand">
+                                <img src="img/brands/logo6.png">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <div class="single_brand">
+                                <img src="img/brands/logo7.png">
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="single_brand">
+                                <img src="img/brands/logo8.png">
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="single_brand">
+                                <img src="img/brands/logo9.png">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="experiance-area">
+                        <div class="d-flex flex-row years-area">
+                            <h2 class="p-3 years">1</h2>
+                            <h2>
+                                <span class="span">Year</span>
+                                <span class="span">Experiance</span>
+                                <span class="span">Working</span>
+                            </h2>
+                        </div>
+                        <div class="d-flex flex-row flex-wrap call-area">
+                            <span>
+                                <i class="fa-solid fa-phone fa-3x px-3"></i>
+                            </span>
+                            <div class="call-now">
+                                <a href="#" style="text-decoration: none;"><h4>CALL NOW</h4></a>
+                                <span class="py-2">(+91)-628-983-6252</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Service Section -->
+
+    <section id="services">
+        <div class="container-fluid services">
+            <h1>SERVICE OFFERS</h1>
+            <p class="p-area"><h4>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour</h4></p>
+            <div class="row row-area">
+                <div class="col-lg-3">
+                    <div class="card card-area">
+                        <div class="card-body">
+                          <img src="img/services/s1.png" class="card-img-top">
+                          <h5 class="card-title">FULL STACK DEVELOPER</h5>
+                          <p>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="card card-area">
+                        <div class="card-body">
+                          <img src="img/services/s2.png" class="card-img-top">
+                          <h5 class="card-title">UI/UX DESIGN</h5>
+                          <p>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="card card-area">
+                        <div class="card-body">
+                          <img src="img/services/s3.png" class="card-img-top">
+                          <h5 class="card-title">WEB DESIGN</h5>
+                          <p>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="card card-area">
+                        <div class="card-body">
+                          <img src="img/services/s4.png" class="card-img-top">
+                          <h5 class="card-title">AI & ML</h5>
+                          <p>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Project Section -->
+
+    <section id="project">
+        <div class="container-fluid project">
+            <h1>RECENTLY DONE PROJECT</h1>
+            <h1>QUALITY WORK</h1>
+            <div class="row project-area" style="margin-top: 7%;">
+                <div class="col-lg-7">
+                    <span class="span-area">ALL</span>
+                    <SPan class="span-area">POPULAR</SPan>
+                    <SPan class="span-area">LATEST</SPan>
+                    <SPan class="span-area">FOLLOWING</SPan>
+                    <SPan class="span-area">UPCOMING</SPan>
+                </div>
+            </div>
+            <div class="row project-area" style="margin-top: 4%;">
+                <div class="col-lg-4">
+                    <img src="img/portfolio/p1.jpg" class="project-img">
+                    <h4 class="project-title">MININGFUL DESIGN</h4>
+                    <p class="project-para">Latest, Portfolio</p>
+                </div>
+                <div class="col-lg-4">
+                    <img src="img/portfolio/p2.jpg" class="project-img">
+                    <h4 class="project-title">PAINT WALL</h4>
+                    <p class="project-para">Popular, Portfolio</p>
+                </div>
+                <div class="col-lg-4">
+                    <img src="img/portfolio/p3.jpg" class="project-img">
+                    <h4 class="project-title">FEMALE LIGHT</h4>
+                    <p class="project-para">Popular, Portfolio</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4">
+                    <img src="img/portfolio/p4.jpg" class="project-img">
+                    <h4 class="project-title">FOURTH AIR</h4>
+                    <p class="project-para">Upcoming, Portfolio</p>
+                </div>
+                <div class="col-lg-4">
+                    <img src="img/portfolio/p6.jpg" class="project-img">
+                    <h4 class="project-title">TOGETHER SIGN</h4>
+                    <p class="project-para">Following, Portfolio</p>
+                </div>
+                <div class="col-lg-4">
+                    <img src="img/portfolio/p5.jpg" class="project-img">
+                    <h4 class="project-title">MULTIPLE FOWN</h4>
+                    <p class="project-para">Upcoming, Portfolio</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4">
+                    <img src="img/portfolio/p7.jpg" class="project-img">
+                    <h4 class="project-title">GREEN HEAVEN</h4>
+                    <p class="project-para">Following, portfolio</p>
+                </div>
+                <div class="col-lg-4">
+                    <img src="img/portfolio/p9.jpg" class="project-img">
+                    <h4 class="project-title">CAMERA LENS</h4>
+                    <p class="project-para">Upcoming, Portfolio</p>
+                </div>
+                <div class="col-lg-4">
+                    <img src="img/portfolio/p8.jpg" class="project-img">
+                    <h4 class="project-title">FLY MALE</h4>
+                    <p class="project-para">Following, Portfolio</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Feedback Section -->
+
+    <section id="feedback">
+        <div class="container-fluid feedback">
+            <h1>CLIENTS SAY ABOUT ME</h1>
+            <p class="project-para feedback-para">
+                <span class="feedback-span">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellendus, deleniti recusandae. Esse incidunt rem repellendus ab voluptates</span>
+                <span class="feedback-span">maxime? Nemo, numquam</span>
+            </p>
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators" style="margin-bottom: 0; display: block; top: 215px;">
+                    <button type="button"  data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1" style="background-color: grey;"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2" style="background-color: grey;"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3" style="background-color: grey;"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="row">
+                                <div class="col-lg-5">
+                                    <img src="img/testimonials/t1.jpg">
+                                </div>
+                                <div class="col-lg-7 feedback-box">
+                                    <h4>JOHN MARTIN</h4>
+                                    <p class="project-para">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam ex velit incidunt repellendus iusto, corrupti voluptatem</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="row">
+                                <div class="col-lg-3 feedback-column">
+                                    <img src="img/testimonials/t2.jpg">
+                                </div>
+                                <div class="col-lg-7 feedback-box">
+                                    <h4>MAC HILL</h4>
+                                    <p class="project-para">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam ex velit incidunt repellendus iusto, corrupti voluptatem</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="row">
+                                <div class="col-lg-5">
+                                    <img src="img/testimonials/t1.jpg">
+                                </div>
+                                <div class="col-lg-7 feedback-box">
+                                    <h4>JOHN MARTIN</h4>
+                                    <p class="project-para">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam ex velit incidunt repellendus iusto, corrupti voluptatem</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="row">
+                                <div class="col-lg-3 feedback-column">
+                                    <img src="img/testimonials/t2.jpg">
+                                </div>
+                                <div class="col-lg-7 feedback-box">
+                                    <h4>MAC HILL</h4>
+                                    <p class="project-para">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam ex velit incidunt repellendus iusto, corrupti voluptatem</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="row">
+                                <div class="col-lg-5">
+                                    <img src="img/testimonials/t1.jpg">
+                                </div>
+                                <div class="col-lg-7 feedback-box">
+                                    <h4>JOHN MARTIN</h4>
+                                    <p class="project-para">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam ex velit incidunt repellendus iusto, corrupti voluptatem</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="row">
+                                <div class="col-lg-3 feedback-column">
+                                    <img src="img/testimonials/t2.jpg">
+                                </div>
+                                <div class="col-lg-7 feedback-box">
+                                    <h4>MAC HILL</h4>
+                                    <p class="project-para">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam ex velit incidunt repellendus iusto, corrupti voluptatem</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                  <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Bootstrap CDN Script -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</body>
+</html>

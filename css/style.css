@@ -1,0 +1,175 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'roboto',cursive;
+}
+
+/* Navigation Bar */
+
+.bar{
+    padding-top: 0.85rem;
+    background-color: #ffffff;
+}
+
+.navbar-brand{
+    padding-left: 5.25rem;
+}
+
+.navbar_fixed {
+    left: 0;
+    right: 0;
+    top: -1px;
+    z-index: 999;
+    position: fixed;
+    box-shadow: var(--box-shadow);
+    transition: background 1s ease;
+}
+
+/* Title Section */
+
+h3{
+    padding-top: 247.5px;
+}
+
+h4{
+    font-size: 1.5rem;
+}
+
+.btn-primary{
+    width: 9.05rem;
+    margin-right: 20px
+}
+
+.btn-outline-primary{
+    width: 8.15rem;
+}
+
+/* Brand Section */
+
+.experiance-area{
+    padding-left: 1rem;
+    
+}
+
+.years-area{
+    width: 40rem;
+    height: 18rem;
+    padding: 2rem 0;
+    position: relative;
+    padding-left: 8rem;
+    background: url(../img/client-info-bg.png) no-repeat 45px 20px;
+}
+
+.years{
+    z-index: 2;
+    color: #854fee;
+    font: normal bold 84px/40px "Roboto",cursive;
+}
+
+.span{
+    display: block;
+    font: normal 600 22px/30px "Roboto",cursive;
+}
+
+.call-area{
+    padding-left: 10rem;
+}
+
+/* Service Section */
+
+#services{
+    text-align: center;
+}
+
+.services{
+    margin-top: 15%;
+}
+
+.row-area{
+    padding-top: 100px;
+}
+
+.card-img-top{
+    margin-top: 40px;
+}
+
+.card-title{
+    margin-top: 50px;
+}
+
+.card:hover{
+    background-color: #854fee;
+    color: #ffffff;
+    box-shadow:5px 15px 30px #000000;
+    cursor: pointer;
+    transition: .7s ease;
+}
+
+.p-area{
+    margin-top: 20px;
+}
+
+/* Project Section */
+
+.project{
+    padding-top:17% ;
+}
+
+.span-area{
+    margin-right: 60px;
+}
+
+.project-img:hover{
+    cursor: pointer;
+    transition:.4s ease;
+    box-shadow:5px 15px 30px #000000;
+}
+
+.project-title{
+    margin-top: 4%;
+    margin-bottom: 0;
+    font-weight: bold;
+}
+
+.project-para{
+    color: grey;
+}
+
+/* Feedback Section */
+
+#feedback{
+    text-align: center;
+}
+
+.feedback{
+    padding-top: 4%;
+}
+
+.feedback-para{
+    margin-top: 1.5%;
+}
+
+.feedback-span{
+    display: block;
+}
+
+.carousel{
+    margin-top: 7%;
+}
+
+.carousel-item{
+    padding: 18px;
+}
+
+.feedback-column{
+    text-align: right;
+}
+
+.col-lg-5{
+    text-align: right;
+}
+
+.feedback-box{
+    text-align: left;
+    box-shadow:0px 10px 30px rgba(57, 56, 61, 0.205)
+}
